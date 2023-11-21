@@ -26,7 +26,7 @@ variable "ami_id" {
     description = "AMI for Ubuntu Ec2 instance" 
     default     = "ami-07ffb2f4d65357b42" 
 }
-variable "versioning" {
+/*variable "versioning" {
     type        = bool
     description = "(Optional) A state of versioning."
     default     = true
@@ -48,4 +48,4 @@ variable "tags" {
         environment = "DEV"
         terraform   = "true"
     }
-}
+}*/
